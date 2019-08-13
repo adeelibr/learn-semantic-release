@@ -6,6 +6,10 @@ cache:
     - node_modules/
 notifications:
   email: false
+
+branches:
+  only:
+    - master
 # Retry install on fail to avoid failing a build on network/disk/external errors
 install:
   - travis_retry npm install
@@ -13,6 +17,3 @@ before_script:
   - npm prune
 after_success:
   - npm run semantic-release
-branches:
-  only:
-    - master
