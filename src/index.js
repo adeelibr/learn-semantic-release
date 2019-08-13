@@ -1,4 +1,4 @@
-const STAR_WAR_CHARACTER_NAMES = [
+export const STAR_WAR_CHARACTER_NAMES = [
     'Almec',
     'Amee',
     'Kitster Banai',
@@ -6,4 +6,6 @@ const STAR_WAR_CHARACTER_NAMES = [
     'Moradmin Bast'
 ];
 
-console.log('Some names are', STAR_WAR_CHARACTER_NAMES.join(', '));
+export const onGetStarWarCharacterNames = function () {
+    console.log('Some names are', STAR_WAR_CHARACTER_NAMES.join(', '));
+};
