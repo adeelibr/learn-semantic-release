@@ -8,4 +8,6 @@ const darthVaderDialogues = [
 
 export const onGetARandomVaderQuote = () => {
   return darthVaderDialogues[Math.floor(Math.random() * darthVaderDialogues.length)];
-}
+};
+
+export const onReveailDarthVader = () => `Anakin Skywalker`;
