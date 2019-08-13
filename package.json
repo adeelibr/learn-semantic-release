@@ -12,15 +12,21 @@
   "author": "Adeel Imran",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "6.3.0",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
-    "semantic-release-cli": "*",
-    "semantic-release": "^15.13.19"
+    "semantic-release": "^15.13.19",
+    "semantic-release-cli": "*"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer"
+    ]
   },
   "repository": {
     "type": "git",
