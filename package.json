@@ -24,23 +24,6 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "release": {
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer", {
-          "preset": "angular"
-        }
-      ],
-      [
-        "semantic-release/release-notes-generator", {
-          "preset": "angular",
-          "parserOpts": {
-            "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
-          }
-        }
-      ]
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/adeelibr/learn-semantic-release.git"
