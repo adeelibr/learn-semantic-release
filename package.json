@@ -1,20 +1,29 @@
 {
   "name": "learn-semantic-release",
-  "version": "0.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "A repo to practic semantic-release, commitzen, cz-log",
   "main": "src/index.js",
   "scripts": {
-    "commit": "npx git-cz"
+    "test": "echo \"Error: No test specified\" && exit 0",
+    "commit": "npx git-cz",
+    "setup-semantic": "semantic-release-cli setup",
+    "semantic-release": "semantic-release pre && semantic-release post"
   },
   "author": "Adeel Imran",
   "license": "MIT",
   "devDependencies": {
     "commitizen": "4.0.3",
-    "cz-conventional-changelog": "3.0.2"
+    "cz-conventional-changelog": "3.0.2",
+    "semantic-release-cli": "*",
+    "semantic-release": "^15.13.19"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adeelibr/learn-semantic-release.git"
   }
 }
