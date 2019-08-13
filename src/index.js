@@ -13,3 +13,5 @@ export const onGetStarWarCharacterNames = function () {
 export const sayChewbacaDialogues = function () {
   console.log('Raarghhh! Vaaarrk! Nowrrrrragh!');
 };
+
+export { onGetARandomVaderQuote } from './darth-vader';
