@@ -1,14 +1,3 @@
-export const STAR_WAR_CHARACTER_NAMES = [
-  'Almec',
-  'Amee',
-  'Kitster Banai',
-  'Darth Bane',
-  'Moradmin Bast'
-];
-
-export const onGetStarWarCharacterNames = function () {
-  console.log('Some names are', STAR_WAR_CHARACTER_NAMES.join(', '));
-};
-
+export { STAR_WAR_CHARACTER_NAMES, onGetStarWarCharacterNames } from './starwars-characters';
 export { onGetARandomVaderQuote } from './darth-vader';
 export { sayChewbacaDialogues } from './chewbaca';
