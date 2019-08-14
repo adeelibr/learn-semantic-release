@@ -1,3 +1,10 @@
+## [3.2.4](https://github.com/adeelibr/learn-semantic-release/compare/v3.2.3...v3.2.4) (2019-08-14)
+
+
+### Bug Fixes
+
+* **travis:** fix travis.yml file ([7c68d33](https://github.com/adeelibr/learn-semantic-release/commit/7c68d33))
+
 ## [3.2.3](https://github.com/adeelibr/learn-semantic-release/compare/v3.2.2...v3.2.3) (2019-08-14)
 
 
