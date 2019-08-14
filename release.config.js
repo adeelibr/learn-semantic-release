@@ -1,5 +1,5 @@
 module.exports = {
-  repositoryUrl: 'https://github.com/adeelibr/learn-semantic-release'
+  repositoryUrl: 'https://github.com/adeelibr/learn-semantic-release',
   plugins: [
     // to analyze commits & assign semantic vers accordingly
     ['@semantic-release/commit-analyzer', {
