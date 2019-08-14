@@ -1,4 +1,5 @@
 module.exports = {
+  repositoryUrl: 'https://github.com/adeelibr/learn-semantic-release'
   plugins: [
     // to analyze commits & assign semantic vers accordingly
     ['@semantic-release/commit-analyzer', {
@@ -10,6 +11,7 @@ module.exports = {
     }],
     '@semantic-release/changelog', // plugin to create/update a changelog file
     '@semantic-release/git',
+    '@semantic-release/github'
   ],
   branch: 'master',
 };
