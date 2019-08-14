@@ -1,3 +1,21 @@
+# [3.4.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.3.0...v3.4.0) (2019-08-14)
+
+
+### Bug Fixes
+
+* **semantic:** :green_heart: semantic release configuration syntax error fixed ([e0676d4](https://github.com/adeelibr/learn-semantic-release/commit/e0676d4))
+* **semantic:** :racehorse: fix semantic release conf ([21669d9](https://github.com/adeelibr/learn-semantic-release/commit/21669d9))
+* **semantic:** :tada: add repositoryUrl along with github plugin in semantic ([a2c01c2](https://github.com/adeelibr/learn-semantic-release/commit/a2c01c2))
+* **semantic:** :tada: fix release.config.js syntax error ([44cd314](https://github.com/adeelibr/learn-semantic-release/commit/44cd314))
+* **semantic:** :tada: fix syntax error in semantic release config ([dbbd3a9](https://github.com/adeelibr/learn-semantic-release/commit/dbbd3a9))
+* **semantic:** add semantic release plugins ([b433ae5](https://github.com/adeelibr/learn-semantic-release/commit/b433ae5))
+* **semantic:** fix semantic release configuration ([c07d8fc](https://github.com/adeelibr/learn-semantic-release/commit/c07d8fc))
+
+
+### Features
+
+* **semantic:** :racehorse: change preset for semantic to atom style ([7705437](https://github.com/adeelibr/learn-semantic-release/commit/7705437))
+
 # [3.3.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.2.4...v3.3.0) (2019-08-14)
 
 
