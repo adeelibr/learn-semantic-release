@@ -6,20 +6,17 @@
   "scripts": {
     "test": "echo \"Error: No test specified\" && exit 0",
     "commit": "npx git-cz",
-    "setup-semantic": "semantic-release-cli setup",
+    "setup-semantic": "npx run semantic-release-cli setup",
     "semantic-release": "semantic-release"
   },
   "author": "Adeel Imran",
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "3.0.4",
-    "@semantic-release/commit-analyzer": "6.3.0",
     "@semantic-release/git": "7.0.16",
-    "@semantic-release/release-notes-generator": "7.3.0",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
-    "semantic-release": "^15.13.19",
-    "semantic-release-cli": "*"
+    "semantic-release": "^15.13.19"
   },
   "config": {
     "commitizen": {
