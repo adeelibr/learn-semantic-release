@@ -8,5 +8,9 @@ const obiwanKenobiDialogues = [
 
 export const onGetARandomObiwanQuote = () => {
   return obiwanKenobiDialogues[Math.floor(Math.random() * obiwanKenobiDialogues.length)];
-}
+};
+
+export const onGetForceMotivation = () => {
+  console.log('May the force be with you.');
+};
 
