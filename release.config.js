@@ -8,7 +8,6 @@ module.exports = {
     ['@semantic-release/release-notes-generator', {
       preset: 'atom',
     }],
-    '@semantic-release/github',
     '@semantic-release/changelog', // plugin to create/update a changelog file
     '@semantic-release/git',
   ],
