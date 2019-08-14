@@ -18,12 +18,11 @@ install:
 before_script:
   - npm prune
 
+script:
+  - npm run test
+
 jobs:
   include:
-    - state: unit test
-      node_js: lts/*
-      script:
-        - npm run test
     - stage: release
       node_js: lts/*
       script:
