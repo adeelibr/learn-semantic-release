@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.6.0...v4.0.0) (2019-08-14)
+
+
+### Features
+
+* **module:** change how all modules all exported ([6064c37](https://github.com/adeelibr/learn-semantic-release/commit/6064c37))
+
+
+### BREAKING CHANGES
+
+* **module:** modules export way changed
+
 # [3.6.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.5.0...v3.6.0) (2019-08-14)
 
 
