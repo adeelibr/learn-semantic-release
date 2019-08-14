@@ -11,3 +11,7 @@ export const onGetARandomVaderQuote = () => {
 };
 
 export const onReveailDarthVader = () => `Anakin Skywalker`;
+
+export const makeDarthVaderDance = () => {
+  console.log('🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 ');
+};
