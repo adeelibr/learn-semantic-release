@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.2.4...v3.3.0) (2019-08-14)
+
+
+### Features
+
+* **travis:** revert to previous valid travis configuration ([3fd46a7](https://github.com/adeelibr/learn-semantic-release/commit/3fd46a7))
+
 ## [3.2.4](https://github.com/adeelibr/learn-semantic-release/compare/v3.2.3...v3.2.4) (2019-08-14)
 
 
