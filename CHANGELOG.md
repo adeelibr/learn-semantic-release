@@ -1,3 +1,11 @@
+# [3.6.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.5.0...v3.6.0) (2019-08-14)
+
+
+### Features
+
+* **chewbaca:** add chewbaca dance like michael jackson module :tada: because why not ([dfbf3c3](https://github.com/adeelibr/learn-semantic-release/commit/dfbf3c3))
+* **darth vader:** add Darth vader dancing :fire: like Michael Jackson ([1dd47ee](https://github.com/adeelibr/learn-semantic-release/commit/1dd47ee)), closes [#5](https://github.com/adeelibr/learn-semantic-release/issues/5)
+
 # [3.5.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.4.0...v3.5.0) (2019-08-14)
 
 
