@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/adeelibr/learn-semantic-release/compare/v4.0.0...v4.1.0) (2019-08-14)
+
+
+### Features
+
+* **obiwan:** add dance obiwan feature ([#8](https://github.com/adeelibr/learn-semantic-release/issues/8)) ([916fe40](https://github.com/adeelibr/learn-semantic-release/commit/916fe40))
+
 # [4.0.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.6.0...v4.0.0) (2019-08-14)
 
 
