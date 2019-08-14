@@ -1,17 +1,11 @@
 module.exports = {
   repositoryUrl: 'https://github.com/adeelibr/learn-semantic-release',
   plugins: [
-    // to analyze commits & assign semantic vers accordingly
-    ['@semantic-release/commit-analyzer', {
-      preset: 'atom',
-    }],
-    // to create/update changelog content
-    ['@semantic-release/release-notes-generator', {
-      preset: 'atom',
-    }],
+    '@semantic-release/commit-analyzer', // to analyze commits & assign semantic vers accordingly
+    '@semantic-release/release-notes-generator',  // to create/update changelog content
     '@semantic-release/changelog', // plugin to create/update a changelog file
     '@semantic-release/git',
-    '@semantic-release/github'
+    '@semantic-release/github',
   ],
   branch: 'master',
 };
