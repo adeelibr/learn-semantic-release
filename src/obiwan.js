@@ -14,3 +14,7 @@ export const onGetForceMotivation = () => {
   console.log('May the force be with you.');
 };
 
+export const danceObiwanDance = () => {
+  console.log('👨‍🎤👨‍🎤🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 ');
+};
+
