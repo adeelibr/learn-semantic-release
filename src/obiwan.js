@@ -15,6 +15,6 @@ export const onGetForceMotivation = () => {
 };
 
 export const danceObiwanDance = () => {
-  console.log('🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 ');
+  console.log('👨‍🎤👨‍🎤🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 🕴🕺 ');
 };
 
