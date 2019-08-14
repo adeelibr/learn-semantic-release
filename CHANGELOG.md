@@ -1,3 +1,10 @@
+# [3.5.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.4.0...v3.5.0) (2019-08-14)
+
+
+### Features
+
+* **obiwan:** add forcemotivation method :tada: ([7eefaae](https://github.com/adeelibr/learn-semantic-release/commit/7eefaae))
+
 # [3.4.0](https://github.com/adeelibr/learn-semantic-release/compare/v3.3.0...v3.4.0) (2019-08-14)
 
 
